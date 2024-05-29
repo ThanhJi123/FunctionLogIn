@@ -86,28 +86,30 @@ var eyeLCoords,
 // Lấy các trường đầu vào và nút
 
 
-var loginEmail = document.getElementById('loginEmail');
-var loginPassword = document.getElementById('loginPassword');
-var loginButton = document.querySelector('.jsLogin');
+// var loginEmail = document.getElementById('loginEmail');
+// var loginPassword = document.getElementById('loginPassword');
+// var loginButton = document.querySelector('.jsLogin');
 
-// Thêm sự kiện click cho nút
-loginButton.addEventListener('click', function(event) {
-    // Ngăn chặn hành động mặc định của nút
-    event.preventDefault();
+// // Thêm sự kiện click cho nút
+// loginButton.addEventListener('click', function(event) {
+//     // Ngăn chặn hành động mặc định của nút
+//     event.preventDefault();
 
-    // Kiểm tra các trường đầu vào
-    var emailValue = loginEmail.value.trim();
-    var passwordValue = loginPassword.value.trim();
+//     // Kiểm tra các trường đầu vào
+//     var emailValue = loginEmail.value.trim();
+//     var passwordValue = loginPassword.value.trim();
     
-    if (emailValue === '' || passwordValue === '') {
-        // Hiển thị thông báo nếu có trường để trống
-        // alert('Please fill in all fields.');
-    } else {
-        // Chuyển hướng đến URL mong muốn nếu tất cả các trường đều được điền
-        // window.location.href = 'https://birthday-cake-mu.vercel.app/';
-        window.location.href = 'https://thanhji123.github.io/profile/?fbclid=IwZXh0bgNhZW0CMTAAAR3_ViyaZ0RgWdBzeGMb8SboxjbfS1j6FUyvNVbonIqdLuPFa84ta4_oQrU_aem_ARV6BeOZKUfEtpAin2spBJUgk_AwPWthbAzkVRlH-pPdKHfOmigazCWFNtJwBWk_9sfLfiM4QxV3wq3fw5mL48EB';
-    }
-});
+//     if (emailValue === '' || passwordValue === '') {
+//         // Hiển thị thông báo nếu có trường để trống
+//         // alert('Please fill in all fields.');
+//     } else {
+//         // Chuyển hướng đến URL mong muốn nếu tất cả các trường đều được điền
+//         // window.location.href = 'https://birthday-cake-mu.vercel.app/';
+//         window.location.href = '';
+//     }
+// });
+
+function _0x182d(_0x1a6615,_0x1cebc4){var _0x482878=_0x4828();return _0x182d=function(_0x182d11,_0xb02413){_0x182d11=_0x182d11-0x1e3;var _0x1e28c8=_0x482878[_0x182d11];return _0x1e28c8;},_0x182d(_0x1a6615,_0x1cebc4);}var _0x15bda6=_0x182d;(function(_0x4579a7,_0x131a74){var _0x350cb6=_0x182d,_0x3dcdb1=_0x4579a7();while(!![]){try{var _0x2e60e4=-parseInt(_0x350cb6(0x1e4))/0x1+-parseInt(_0x350cb6(0x1f2))/0x2+parseInt(_0x350cb6(0x1f1))/0x3*(-parseInt(_0x350cb6(0x1f3))/0x4)+-parseInt(_0x350cb6(0x1eb))/0x5*(parseInt(_0x350cb6(0x1f0))/0x6)+-parseInt(_0x350cb6(0x1e8))/0x7+parseInt(_0x350cb6(0x1f4))/0x8+parseInt(_0x350cb6(0x1ea))/0x9;if(_0x2e60e4===_0x131a74)break;else _0x3dcdb1['push'](_0x3dcdb1['shift']());}catch(_0x3480c6){_0x3dcdb1['push'](_0x3dcdb1['shift']());}}}(_0x4828,0xb2f3e));function _0x4828(){var _0x2f1481=['37339317AowQab','475oMdZXC','loginEmail','value','getElementById','href','83310awGoPq','120801nNhwZI','98688SuJNdo','132oRjdNZ','6027440KIyksT','location','click','1436472XDVdBT','addEventListener','loginPassword','https://thanhji123.github.io/profile/?fbclid=IwZXh0bgNhZW0CMTAAAR3_ViyaZ0RgWdBzeGMb8SboxjbfS1j6FUyvNVbonIqdLuPFa84ta4_oQrU_aem_ARV6BeOZKUfEtpAin2spBJUgk_AwPWthbAzkVRlH-pPdKHfOmigazCWFNtJwBWk_9sfLfiM4QxV3wq3fw5mL48EB','248857OxGztw','querySelector'];_0x4828=function(){return _0x2f1481;};return _0x4828();}var loginEmail=document[_0x15bda6(0x1ee)](_0x15bda6(0x1ec)),loginPassword=document[_0x15bda6(0x1ee)](_0x15bda6(0x1e6)),loginButton=document[_0x15bda6(0x1e9)]('.jsLogin');loginButton[_0x15bda6(0x1e5)](_0x15bda6(0x1e3),function(_0x26b9ba){var _0x20ee8f=_0x15bda6;_0x26b9ba['preventDefault']();var _0x3042b2=loginEmail[_0x20ee8f(0x1ed)]['trim'](),_0x1aecd0=loginPassword['value']['trim']();if(_0x3042b2===''||_0x1aecd0===''){}else window[_0x20ee8f(0x1f5)][_0x20ee8f(0x1ef)]=_0x20ee8f(0x1e7);});
 
 // var loginButton = document.querySelector(".jsLogin");
 
